@@ -140,9 +140,6 @@ header .sub-menu ul.menu li + li::before {
   bottom: 0;
   margin: auto;
 }
-header .sub-menu ul.menu li:first-child::before {
-  /* display: none; */
-}
 header .sub-menu ul.menu li a {
   font-size: 12px;
   padding: 11px 16px;
@@ -192,9 +189,7 @@ header .main-menu {
   z-index: 1;
   display: flex;
 }
-header .main-menu .item {
 
-}
 header .main-menu .item .item__name {
   padding: 10px 20px 34px 20px;
   font-family: Arial, sans-serif;
@@ -313,9 +308,6 @@ header .badges .badge {
 }
 
 /* NOTICE */
-.notice {
-
-}
 .notice .notice-line {
   position: relative;
 }
@@ -597,9 +589,6 @@ header .badges .badge {
 }
 .season-product .text-group .description {
   margin-bottom: 15px;
-}
-.season-product .text-group .more {
-  
 }
 
 /* RESERVE COFFEE */
